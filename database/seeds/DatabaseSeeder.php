@@ -28,11 +28,4 @@ class UserTableSeeder extends Seeder
             factory(App\User::class, 20)->create();
         }
 }
-class PostTableSeeder extends Seeder
-{
-    public function run()
-        {
-            App\Post::truncate();
-            factory(App\Post::class, 20)->create();
-        }
-}
+
